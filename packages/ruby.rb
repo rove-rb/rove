@@ -43,7 +43,7 @@ Rove.package :ruby do
         end
       end
 
-      %w[2.1.1 2.1.2 2.1.3 2.1.4 2.1.5].each do |version|
+      %w[2.1.1 2.1.2 2.1.3 2.1.4 2.1.5 2.1.9 2.1.10 2.2.3 2.2.5 2.3.1].each do |version|
         option version do
           title version
           config do |config|
